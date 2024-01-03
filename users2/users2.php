@@ -1,9 +1,5 @@
 <?php
-/**
- * User: TheCodeholic
- * Date: 3/19/2019
- * Time: 9:27 AM
- */
+
 
 function getUsers2()
 {
@@ -90,7 +86,7 @@ function putJson($users2)
 function validateUser2($user2, &$errors)
 {
     $isValid = true;
-    // Start of validation
+    
     if (!$user2['name']) {
         $isValid = false;
         $errors['name'] = 'Name is mandatory';
@@ -101,7 +97,7 @@ function validateUser2($user2, &$errors)
     }
    
    
-    // End Of validation
+ 
 
     return $isValid;
 }

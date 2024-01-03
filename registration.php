@@ -3,6 +3,7 @@ session_start();
 
 
 
+
 // Check if the form is submitted for registration
 if (isset($_POST['register'])) {
     $user_type = $_POST['user_type'];
